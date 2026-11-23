@@ -1,0 +1,2 @@
+Project,Dataset_Rows,Dataset_Columns,Models_Compared,Best_Model,MAE,RMSE,R2_Score,Most_Important_Feature,Most_Important_Feature_Score
+Flight Price Prediction,10462,18,4,Random Forest,674.3952256273748,1496.9083463412956,0.8925321392995816,numerical__Duration_Minutes,0.44166006463356317

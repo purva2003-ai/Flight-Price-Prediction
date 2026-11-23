@@ -1,0 +1,9 @@
+Challenge,Problem,Solution
+Missing Values,Route and Total_Stops contained missing values.,Removed the incomplete record after checking missing values.
+Duplicate Records,The dataset contained 220 duplicate records.,Removed duplicate rows using drop_duplicates().
+Duration Format,Flight duration was stored as text containing hours and minutes.,Converted duration into numerical minutes using regular expressions.
+Date and Time Features,Journey dates and departure and arrival times were stored as text.,"Extracted day, month, hour and minute features."
+Categorical Variables,"Airline, Source and Destination contained text categories.",Used OneHotEncoder to convert categorical variables into numerical features.
+Different Feature Scales,Numerical features had different value ranges.,Applied StandardScaler to numerical features.
+Price Outliers,Some flight prices were much higher than average.,Kept valid high-priced flights instead of removing them blindly.
+Model Selection,Different machine learning models produced different prediction errors.,"Compared four regression models using MAE, RMSE and R2 Score."
